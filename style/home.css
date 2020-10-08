@@ -1,0 +1,104 @@
+@import "header.css";
+@import "navbar.css";
+@import "footer.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(200, 231, 222);
+  font-family: Arial;
+  margin: 0;
+}
+
+.mygrid {
+  display: grid;
+  grid-template-columns: 800px;
+
+  grid-template-areas:
+    "header"
+    "navbar"
+    "main"
+    "ft";
+}
+
+.main {
+  grid-area: main;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background-color: white;
+  /* height: 1000px; */
+  /* width: 1000px; */
+  text-align: center;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.post {
+  border: 1px solid rgb(200, 231, 222);
+  height: 400px;
+  /* width: 250px; */
+  width: 18rem;
+  margin: 5px;
+  text-align: center;
+  padding: 20px;
+  /* line-height: 75px; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.post:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+img {
+  height: 150px;
+  width: 200px;
+}
+
+.btn {
+  border: 1px solid rgb(220, 88, 99);
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+  height: 40px;
+  width: 140px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: rgb(220, 88, 99);
+}
+
+#two {
+  align-self: flex-end;
+}
+
+#five {
+  align-self: flex-start;
+}
+
+@media (min-width: 900px) {
+  .mygrid {
+    display: grid;
+    grid-template-columns: 360px 360px 360px 360px;
+    grid-template-rows: 300px 38px 1000px 260px;
+    grid-template-areas:
+      "header header header header"
+      "navbar navbar navbar navbar"
+      "main main main main"
+      "ft ft ft ft";
+  }
+}

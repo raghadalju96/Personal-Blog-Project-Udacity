@@ -1,0 +1,15 @@
+.header {
+  grid-area: header;
+  background-color: #f1f1f1;
+  padding: 150px;
+  /* padding-top: 100px; */
+  text-align: center;
+  font-size: 35px;
+  /* background-image: url("fu.jpeg"); */
+
+  background-image: url("../images/fu.jpeg");
+
+  background-size: cover;
+
+  background-position: center;
+}

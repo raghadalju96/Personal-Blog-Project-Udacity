@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
+.btn1 {
+  background-color: rgb(220, 88, 99);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+  height: 40px;
+  width: 140px;
+  font-weight: bold;
+}
+
+.btn1:hover {
+  background-color: green;
+}
+
+.footer {
+  text-align: center;
+  color: grey;
+  padding: 10px 10px 0 10px;
+  font-size: 15px;
+  margin: 30px 30px 0 30px;
+}
+
+.ft {
+  grid-area: ft;
+
+  background-color: white;
+  padding: 30px;
+  margin-left: 200px;
+  margin-right: 200px;
+  text-align: center;
+  font-family: "Lucida Console", Courier, monospace;
+  font-size: 35px;
+}
+
+#fname {
+  width: 783px;
+  height: 40px;
+  border: 2px solid black;
+  padding: 3px 3px 3px 21px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.flexfooter {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+li {
+  display: inline;
+  text-decoration: none;
+  font-size: medium;
+  text-align: center;
+  padding: 50px;
+}
