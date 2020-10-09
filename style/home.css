@@ -23,6 +23,7 @@ body {
     "ft";
 
   justify-content: center;
+  overflow-x: hidden;
 }
 
 .main {
