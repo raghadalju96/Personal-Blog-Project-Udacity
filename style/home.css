@@ -14,13 +14,15 @@ body {
 
 .mygrid {
   display: grid;
-  grid-template-columns: 800px;
+  grid-template-columns: 700px;
 
   grid-template-areas:
     "header"
     "navbar"
     "main"
     "ft";
+
+  justify-content: center;
 }
 
 .main {
@@ -30,7 +32,7 @@ body {
   flex-direction: row;
   background-color: white;
   /* height: 1000px; */
-  /* width: 1000px; */
+  /* width: 600px; */
   text-align: center;
   margin-left: 200px;
   margin-right: 200px;
@@ -100,5 +102,6 @@ img {
       "navbar navbar navbar navbar"
       "main main main main"
       "ft ft ft ft";
+    /* background-color: white; */
   }
 }

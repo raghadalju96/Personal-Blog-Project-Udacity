@@ -14,13 +14,14 @@ body {
 
 .mygrid {
   display: grid;
-  grid-template-columns: 800px;
+  grid-template-columns: 690px;
 
   grid-template-areas:
     "header"
     "navbar"
     "main"
     "ft";
+  justify-content: center;
 }
 
 .main {
@@ -43,7 +44,7 @@ body {
 
 .innermain {
   border: 1px solid seagreen;
-  height: 1300px;
+  height: 99%;
   width: 99%;
   margin: 5px;
   padding: 10px;
